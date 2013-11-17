@@ -3,3 +3,6 @@
 
 # config file
 lykos.cfg
+
+*.swp
+__pycache__
