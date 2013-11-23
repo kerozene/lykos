@@ -10,13 +10,22 @@
 # ===================================================
 
 # The network for lykos to run on.
-# Example: irc.freenode.net
-network="irc.freenode.net"
+network    = "irc.freenode.net"
+port       = 6667
+serverpass = "" #leave blank if none
 
-# The channels for lykos to join. Comma separated.
-# Example: ##shark,##werewolf,##werewolf-ops
-channels="#channel"
+# The channel for lykos to join.
+channels   ="#channel"
+opchan     = "#channel-ops"
 
-# The nickname for the bot to take.
-# Example: lykos
-nickname="lykos"
+# Bot information.
+nickname   = "lykos"
+nickpass   = "password"
+username   = "lykos"
+cmdchar    = "!"
+
+#Admin Information
+owner      = ("unaffiliated/owner",) #leave the trailing comma if there is 1 owner
+admin      = ("unaffiliated/admin1", "unaffiliated/admin2")
+
+
