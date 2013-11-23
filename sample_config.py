@@ -22,7 +22,7 @@ opchan     = "#channel-ops"
 nickname   = "lykos"
 nickpass   = "password"
 username   = "lykos"
-cmdchat    = "!"
+cmdchar    = "!"
 
 #Admin Information
 owner      = ("unaffiliated/owner",) #leave the trailing comma if there is 1 owner
