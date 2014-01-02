@@ -24,6 +24,7 @@ nickpass = "password"
 username = "lykos"
 cmdchar = "!"
 
+
 # Admin Information
 owner_host = ("unaffiliated/owner",)  # leave the trailing comma if there is 1 owner
 owner_acct = ("owner",)  # this is the owners nickserv account, can be used as an alternate to their cloak.
@@ -57,3 +58,4 @@ roles = [[],  # this is the role distribution per number of players
          [3, 1, 2, 1, 1, 1, 1, 1, 1],  # 18
          [3, 1, 2, 1, 1, 1, 1, 1, 1],  # 19
          [4, 1, 2, 1, 1, 1, 1, 1, 1]]  # 20
+

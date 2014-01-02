@@ -1,12 +1,11 @@
 #!/bin/bash
 
-CONFIG="lykos.cfg"
+CONFIG="config.py"
 
 if [ -f $CONFIG ]
 then
     echo "Config file found. Starting..."
-    source lykos.cfg
-    python3 lykos.py $LYKOS_NETWORK $LYKOS_CHANNELS $LYKOS_NAME
+    python3 lykos.py
 else
     echo "============================="
     echo "==  _       _              =="
@@ -21,7 +20,7 @@ else
     echo "== Welcome to lykos!       =="
     echo "== Setup is simple. I'm    =="
     echo "== copying a sample config =="
-    echo "== file to lykos.cfg.      =="
+    echo "== file to config.py.      =="
     echo "== Modify that (the        =="
     echo "== settings are pretty     =="
     echo "== self-explanatory) and   =="
@@ -29,5 +28,5 @@ else
     echo "== Have fun with your new  =="
     echo "== wolfbot!                =="
     echo "============================="
-    cp lykos_sample.cfg lykos.cfg
+    cp sample_config.py config.py
 fi

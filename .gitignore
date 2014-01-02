@@ -1,5 +1,14 @@
-# pycharm
-.idea
+# Python
+__pycache__/
+*.py[cdo]
 
-# config file
-lykos.cfg
+# Configuration
+config.py
+
+# PyCharm
+.idea/
+*.iml
+
+# Vim
+.*.swp
+.swp
